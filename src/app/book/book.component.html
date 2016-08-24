@@ -1,0 +1,8 @@
+<h2>Books</h2>
+<p>List books here</p>
+
+    <ul class="books">
+      <li *ngFor="let book of books">
+        {{book.id}} - {{book.title}} by {{book.author}}
+      </li>
+    </ul>
